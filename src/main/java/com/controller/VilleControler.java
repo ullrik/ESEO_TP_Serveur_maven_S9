@@ -25,7 +25,7 @@ public class VilleControler {
 	public ArrayList<Ville> appelGet(@RequestParam(required = false, value = "codePostal") String monParam) {
 		System.out.println("Appel GET");
 
-		// affichage
+		// affichage console
 		System.out.println("monParam : " + monParam);
 
 		ArrayList<Ville> listeVille = villeBLOService.getInfoVille(monParam);
