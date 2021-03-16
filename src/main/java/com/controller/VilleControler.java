@@ -31,5 +31,6 @@ public class VilleControler {
 		ArrayList<Ville> listeVille = villeBLOService.getInfoVille(monParam);
 
 		return listeVille;
+		
 	}
 }
